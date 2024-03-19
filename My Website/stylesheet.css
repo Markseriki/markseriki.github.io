@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icons {
+    display: flex;
+    gap: 20px; /* Adjust the space between icons */
+    margin-right: 20px;
+}
+        
+.icons i {
+    color: gray;
+    font-size: 24px; /* Adjust the size of the icons */
+}
+
+.icons i:hover{
+    color: white;
+ }
+
+.baseicons {
+    display: flex;
+    gap: 50px; /* Adjust the space between icons */
+    margin-right: 20px;
+}
+        
+.baseicons i {
+    color: black;
+    font-size: 40px; /* Adjust the size of the icons */
+}
+
+.baseicons i:hover{
+    color: grey;
+ }
+.header {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    padding-top: 0;
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: center; /* Vertically center items in the flex container */
+    justify-content: space-between;
+}
+
+.header h1 img {
+    width: 100px; /* Adjust the width to a fixed pixel value */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 8px; /* Add some space between the image and the list */
+    margin-left: 20px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 13px;
+    position: relative;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+}
+.nav ul li a:hover{
+    color: white;
+ }
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333; /* Dark background color for the dropdown */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Correct class name to match the HTML */
+.nav ul li:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    color: gray; /* Text color for dropdown items */
+    display: block;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+}
+.pagetag{
+    text-align: center;
+    background-color:rgb(178, 181, 185);
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+.pagetag h2{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+}
+.main-mainpage{
+    max-width: 100%;  /* Set the desired width of your div */
+    height: 1200px; /* Set the desired height of your div */
+    background-image: url('C:\\Users\\Mark\\Downloads\\starliost unzipped\\starliost.png'); /* Set the path or URL of your image */
+    background-size: cover; /* Optional: Cover the entire div */
+    border: 1px solid #ccc;
+}
+.main-mens{
+    max-width: 100%; 
+    height: 1200px;
+    background-color: white;
+    display: flex; /* Use flexbox to create a horizontal layout */
+    justify-content: flex-start; /* Align items to the left */
+}
+
+.main-mens .product {
+    margin-right: 20px; /* Add margin for spacing between products */
+}
+
+.main-mens .product1 img {
+    width: 400px; /* Set the desired width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
+.main-mens .product1 p {
+    text-align: center; /* Align the text to the center */
+    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+    font-weight: bold;
+}
+
+.main-mens .product1:hover {
+    transform: scale(1.05); /* Increase the scale on hover */
+}
+
+.main-mens .product2 img {
+    width: 400px; /* Set the desired width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
+.main-mens .product2 p {
+    text-align: center; /* Align the text to the center */
+    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+    font-weight: bold;
+}
+.main-mens .product2:hover {
+    transform: scale(1.05); /* Increase the scale on hover */
+}
+
+.main-womens{
+    max-width: 100%; 
+    height: 1200px;
+    background-color: white;
+    display: flex; /* Use flexbox to create a horizontal layout */
+    justify-content: flex-start; /* Align items to the left */
+}
+
+.main-womens .product {
+    margin-right: 20px; /* Add margin for spacing between products */
+}
+
+.main-womens .product1 img {
+    width: 400px; /* Set the desired width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
+.main-womens .product1 p {
+    text-align: center; /* Align the text to the center */
+    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+    font-weight: bold;
+}
+
+.main-womens .product1:hover {
+    transform: scale(1.05); /* Increase the scale on hover */
+}
+
+.main-womens .product2 img {
+    width: 400px; /* Set the desired width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
+.main-womens .product2 p {
+    text-align: center; /* Align the text to the center */
+    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+    font-weight: bold;
+}
+.main-womens .product2:hover {
+    transform: scale(1.05); /* Increase the scale on hover */
+}
+
+.main-shopall{
+    max-width: 100%; 
+    height: 1200px;
+    background-color: white;
+    display: flex; /* Use flexbox to create a horizontal layout */
+    justify-content: flex-start; /* Align items to the left */
+    flex-wrap: wrap;
+}
+
+.main-shopall .product {
+    margin-right: 20px; /* Add margin for spacing between products */
+    margin-bottom: 20px;
+}
+
+.main-shopall .product1 img {
+    width: 400px; /* Set the desired width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
+.main-shopall .product1 p {
+    text-align: center; /* Align the text to the center */
+    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+    font-weight: bold;
+}
+
+.main-shopall .product1:hover {
+    transform: scale(1.05); /* Increase the scale on hover */
+}
+
+.main-shopall .product2 img {
+    width: 400px; /* Set the desired width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
+.main-shopall .product2 p {
+    text-align: center; /* Align the text to the center */
+    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+    font-weight: bold;
+}
+.main-shopall .product2:hover {
+    transform: scale(1.05); /* Increase the scale on hover */
+}
+
+.main-shopall .product3 img {
+    width: 400px; /* Set the desired width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.main-shopall .product3 p {
+    text-align: center; /* Align the text to the center */
+    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+    font-weight: bold;
+}
+
+.main-shopall .product3:hover {
+    transform: scale(1.05); /* Increase the scale on hover */
+}
+
+.main-shopall .product4 img {
+    width: 400px; /* Set the desired width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
+.main-shopall .product4 p {
+    text-align: center; /* Align the text to the center */
+    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+    font-weight: bold;
+}
+.main-shopall .product4:hover {
+    transform: scale(1.05); /* Increase the scale on hover */
+}
+
+.main-newdrop{
+    max-width: 100%; /* Set the desired width of your div */
+    height: 1200px; /* Set the desired height of your div */
+    background-image: url('C:\\Users\\Mark\\Downloads\\geek2\\geek.png'); /* Set the path or URL of your image */
+    image-rendering:optimizeQuality;
+    background-size: contain; /* Adjust this value */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: black;
+    border: 1px solid #ccc
+}
+
+.prebase {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.prebase h3 { 
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+}
+
+.base{
+    text-align: center;
+    background-color:white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.base h4 img{
+    width: 300px; /* Adjust the width to a fixed pixel value */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add some space between the image and the list */
+    margin-left: 40px;
+}
+
+.subscribe-section {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+
+.subscribe-section h5 {
+    font-family: 'Mukta', sans-serif; /* Change 'Mukta' to the desired font-family */
+    margin-bottom: 10px;
+}
+
+.subscribe-section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-section input[type="email"] {
+    width: 250px;
+    padding: 10px;
+    font-family: 'Mukta', sans-serif; /* Change 'Mukta' to the desired font-family */
+}
+
+.subscribe-section button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Mukta', sans-serif; /* Change 'Mukta' to the desired font-family */
+}
+
+.lastline{
+    width: 100%;
+    height:7px;
+    background-color: red;
+}
+footer p{
+    padding: 10px;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+.main-whiteT {
+    max-width: 100%; /* Limit the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding to the container */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column; /* Adjusted to column */
+    align-items: center; /* Adjusted to center alignment */
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    flex: 1;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    width: 100%; /* Adjusted to full width */
+    padding: 0 20px; /* Adjusted padding */
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+}
+
+.product-details h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.product-options {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.option {
+    display: flex;
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+
+.option-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px; /* Adjust label font size */
+}
+
+select {
+    width: 230px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.add-to-cart {
+    width: 230px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color:black;
+    color: lightgray;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: grey;
+}
+
+.product-description {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.product-description p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+.you-might-like {
+    margin-top: 40px; /* Adjust as needed */
+    clear: both; /* Clear floats */
+}
+
+.you-might-like h3{
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+}
+
+.product1-thumbnail,
+.product2-thumbnail,
+.product3-thumbnail {
+    display: inline-block; /* Change to block or inline-block */
+    margin-right: 60px; /* Adjust spacing between thumbnails */
+}
+
+.product1-thumbnail:hover,
+.product2-thumbnail:hover,
+.product3-thumbnail:hover {
+    background-color: grey;
+}
+
+
+.product1-thumbnail img{
+    width: 300px;
+    height: auto;
+}
+
+.product2-thumbnail img{
+    width: 300px;
+    height: auto;
+}
+
+.product3-thumbnail img{
+width: 300px;
+height: auto;
+}
+.main-cart {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+.main-cart p{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+}
