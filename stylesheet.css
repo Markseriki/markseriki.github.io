@@ -21,6 +21,10 @@
     color: white;
  }
 
+.search-container {
+    display: none;
+}
+
 .baseicons {
     display: flex;
     gap: 50px; /* Adjust the space between icons */
@@ -107,6 +111,40 @@
     text-decoration: none;
     font-family: 'Mukta', sans-serif; /* Change font to Mukta */
 }
+
+#search-container {
+    display: none; /* Hide the search container by default */
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+#search-bar {
+    width: 200px; /* Set the width of the search bar */
+    padding: 8px; /* Add padding for better appearance */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Apply rounded corners */
+    background-color: gray;
+    color: black;
+    outline: none; /* Remove outline on focus */
+}
+
+#search-bar::placeholder {
+    color: black;
+}
+
+#search-button {
+    padding: 8px 15px; /* Adjust padding as needed */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Apply rounded corners */
+    background-color: #ccc; /* Gray background color */
+    color: #333; /* Text color */
+    cursor: pointer; /* Add pointer cursor on hover */
+}
+
+#search-button:hover {
+    background-color: #999; /* Darker gray background color on hover */
+}
+
+
 .pagetag{
     text-align: center;
     background-color:rgb(178, 181, 185);
@@ -124,7 +162,7 @@
     font-size: 16px;
     font-family: 'Mukta', sans-serif; /* Change font to Mukta */
 }
-.main-mainpage{
+.main-index{
     max-width: 100%;  /* Set the desired width of your div */
     height: 1200px; /* Set the desired height of your div */
     background-image: url('starliost.png'); /* Set the path or URL of your image */
