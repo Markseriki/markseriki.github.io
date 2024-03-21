@@ -37,7 +37,7 @@ body {
         
 .baseicons i {
     color: black;
-    font-size: 40px;  /* Adjust the size of the icons */
+    font-size: 4vw;  /* Adjust the size of the icons */
 }
 
 .baseicons i:hover {
@@ -172,7 +172,7 @@ body {
 .main-index {
     max-width: 100%; /* Set the desired width of your div */
     height: 120vh; /* Set the desired height of your div */
-    background-image: url('C:\\Users\\Mark\\Downloads\\starliost unzipped\\starliost.png'); /* Set the path or URL of your image */
+    background-image: url('starliost.png'); /* Set the path or URL of your image */
     background-size: cover; /* Optional: Cover the entire div */
     border: 1px solid #ccc;
 }
@@ -181,7 +181,7 @@ body {
 {
     max-width: 100%; /* Set the desired width of your div */
     height: 120vh; /* Set the desired height of your div */
-    background-image: url('C:\\Users\\Mark\\Downloads\\geek2\\geek.png'); /* Set the path or URL of your image */
+    background-image: url('geek.png'); /* Set the path or URL of your image */
     background-size: cover; /* Optional: Cover the entire div */
     border: 1px solid #ccc;
 }
