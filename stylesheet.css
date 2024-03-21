@@ -168,7 +168,7 @@
 .main-index {
     max-width: 100%; /* Set the desired width of your div */
     height: 120vh; /* Set the desired height of your div */
-    background-image: url('C:\\Users\\Mark\\Downloads\\starliost unzipped\\starliost.png'); /* Set the path or URL of your image */
+    background-image: url('starliost.png'); /* Set the path or URL of your image */
     background-size: cover; /* Optional: Cover the entire div */
     border: 1px solid #ccc;
 }
@@ -177,7 +177,7 @@
 {
     max-width: 100%; /* Set the desired width of your div */
     height: 120vh; /* Set the desired height of your div */
-    background-image: url('C:\\Users\\Mark\\Downloads\\geek2\\geek.png'); /* Set the path or URL of your image */
+    background-image: url('geek.png'); /* Set the path or URL of your image */
     background-size: cover; /* Optional: Cover the entire div */
     border: 1px solid #ccc;
 }
