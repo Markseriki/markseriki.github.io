@@ -6,15 +6,19 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: white;
+}
+  
 .icons {
     display: flex;
-    gap: 26%; /* Adjust the space between icons */
-    margin-right: 5%; /* Adjust margin */
+    gap: 20px; /* Adjust the space between icons */
+    margin-right: 20px;
 }
         
 .icons i {
     color: gray;
-    font-size: 1.7vw; /* Adjust the size of the icons */
+    font-size: 24px; /* Adjust the size of the icons */
 }
 
 .icons i:hover {
@@ -33,7 +37,7 @@
         
 .baseicons i {
     color: black;
-    font-size: 3.7vw; /* Adjust the size of the icons */
+    font-size: 40px;  /* Adjust the size of the icons */
 }
 
 .baseicons i:hover {
@@ -65,12 +69,12 @@
 .nav ul {
     list-style: none;
     padding: 0;
-    margin-right: 10px;
+    margin: 0;
 }
 
 .nav ul li {
     display: inline-block;
-    margin-right: 20px; /* Adjust margin */
+    margin-right: 10px;
     position: relative;
 }
 
@@ -78,7 +82,7 @@
     text-decoration: none;
     color: gray;
     font-weight: bold;
-    font-size: 1.2vw; /* Adjust font size */
+    font-size: 16px;
     font-family: 'Mukta', sans-serif; /* Change font to Mukta */
 }
 
@@ -161,14 +165,14 @@
     text-decoration: none;
     color: gray;
     font-weight: bold;
-    font-size: 1.3vw; /* Adjust font size */
+    font-size: 14px; /* Adjust font size */
     font-family: 'Mukta', sans-serif; /* Change font to Mukta */
 }
 
 .main-index {
     max-width: 100%; /* Set the desired width of your div */
     height: 120vh; /* Set the desired height of your div */
-    background-image: url('starliost.png'); /* Set the path or URL of your image */
+    background-image: url('C:\\Users\\Mark\\Downloads\\starliost unzipped\\starliost.png'); /* Set the path or URL of your image */
     background-size: cover; /* Optional: Cover the entire div */
     border: 1px solid #ccc;
 }
@@ -177,7 +181,7 @@
 {
     max-width: 100%; /* Set the desired width of your div */
     height: 120vh; /* Set the desired height of your div */
-    background-image: url('geek.png'); /* Set the path or URL of your image */
+    background-image: url('C:\\Users\\Mark\\Downloads\\geek2\\geek.png'); /* Set the path or URL of your image */
     background-size: cover; /* Optional: Cover the entire div */
     border: 1px solid #ccc;
 }
@@ -303,7 +307,7 @@
     text-decoration: none;
     color: gray;
     font-weight: bold;
-    font-size: 1.2vw; /* Adjust font size */
+    font-size: 14px; /* Adjust font size */
     font-family: 'Mukta', sans-serif;
 }
 
@@ -473,7 +477,7 @@ select {
 .product2-thumbnail,
 .product3-thumbnail {
     display: inline-block;
-    margin-right: 3%; /* Adjust spacing between thumbnails */
+    margin-right: 1%; /* Adjust spacing between thumbnails */
     width: 30%; 
 }
 
