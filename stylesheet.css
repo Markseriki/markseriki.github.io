@@ -8,18 +8,18 @@
 
 .icons {
     display: flex;
-    gap: 20px; /* Adjust the space between icons */
-    margin-right: 20px;
+    gap: 26%; /* Adjust the space between icons */
+    margin-right: 5%; /* Adjust margin */
 }
         
 .icons i {
     color: gray;
-    font-size: 24px; /* Adjust the size of the icons */
+    font-size: 1.7vw; /* Adjust the size of the icons */
 }
 
-.icons i:hover{
+.icons i:hover {
     color: white;
- }
+}
 
 .search-container {
     display: none;
@@ -27,23 +27,24 @@
 
 .baseicons {
     display: flex;
-    gap: 50px; /* Adjust the space between icons */
-    margin-right: 20px;
+    gap: 20%; /* Adjust the space between icons */
+    margin-right: 5%; /* Adjust margin */
 }
         
 .baseicons i {
     color: black;
-    font-size: 40px; /* Adjust the size of the icons */
+    font-size: 3.7vw; /* Adjust the size of the icons */
 }
 
-.baseicons i:hover{
+.baseicons i:hover {
     color: grey;
- }
+}
+
 .header {
     text-align: center;
     background-color: black;
     width: 100%;
-    height: 80px;
+    height: 12vh; /* Adjust header height */
     padding-top: 0;
     display: flex; /* Use flexbox for horizontal alignment */
     align-items: center; /* Vertically center items in the flex container */
@@ -51,10 +52,10 @@
 }
 
 .header h1 img {
-    width: 100px; /* Adjust the width to a fixed pixel value */
+    width: 100px; /* Adjust the width to a percentage value */
     height: auto; /* Maintain aspect ratio */
     margin-right: 8px; /* Add some space between the image and the list */
-    margin-left: 20px;
+    margin-left: 20px; /* Adjust margin */
 }
 
 .nav {
@@ -64,12 +65,12 @@
 .nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin-right: 10px;
 }
 
 .nav ul li {
     display: inline-block;
-    margin-right: 13px;
+    margin-right: 20px; /* Adjust margin */
     position: relative;
 }
 
@@ -77,12 +78,13 @@
     text-decoration: none;
     color: gray;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.2vw; /* Adjust font size */
     font-family: 'Mukta', sans-serif; /* Change font to Mukta */
 }
-.nav ul li a:hover{
+
+.nav ul li a:hover {
     color: white;
- }
+}
 
 .dropdown-menu {
     display: none;
@@ -102,7 +104,7 @@
 }
 
 .dropdown-menu li {
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .dropdown-menu li a {
@@ -112,16 +114,17 @@
     font-family: 'Mukta', sans-serif; /* Change font to Mukta */
 }
 
+/* CSS for styling the search box */
 #search-container {
     display: none; /* Hide the search container by default */
-    margin-top: 10px; /* Adjust margin as needed */
+    margin-top: 2%; /* Adjust margin */
 }
 
 #search-bar {
-    width: 200px; /* Set the width of the search bar */
-    padding: 8px; /* Add padding for better appearance */
+    width: 30%; /* Set the width of the search bar */
+    padding: 2%; /* Add padding for better appearance */
     border: none; /* Remove default border */
-    border-radius: 20px; /* Apply rounded corners */
+    border-radius: 5vw; /* Apply rounded corners */
     background-color: gray;
     color: black;
     outline: none; /* Remove outline on focus */
@@ -132,9 +135,9 @@
 }
 
 #search-button {
-    padding: 8px 15px; /* Adjust padding as needed */
+    padding: 2% 3%; /* Adjust padding */
     border: none; /* Remove default border */
-    border-radius: 20px; /* Apply rounded corners */
+    border-radius: 5vw; /* Apply rounded corners */
     background-color: #ccc; /* Gray background color */
     color: #333; /* Text color */
     cursor: pointer; /* Add pointer cursor on hover */
@@ -144,236 +147,194 @@
     background-color: #999; /* Darker gray background color on hover */
 }
 
-
-.pagetag{
+.pagetag {
     text-align: center;
-    background-color:rgb(178, 181, 185);
+    background-color: rgb(178, 181, 185);
     width: 100%;
-    height: 45px;
+    height: 6vh; /* Adjust height */
     display: flex;
     align-items: center; 
     justify-content: center;
-
 }
-.pagetag h2{
+
+.pagetag h2 {
     text-decoration: none;
     color: gray;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.3vw; /* Adjust font size */
     font-family: 'Mukta', sans-serif; /* Change font to Mukta */
 }
-.main-index{
-    max-width: 100%;  /* Set the desired width of your div */
-    height: 1200px; /* Set the desired height of your div */
-    background-image: url('starliost.png'); /* Set the path or URL of your image */
+
+.main-index {
+    max-width: 100%; /* Set the desired width of your div */
+    height: 120vh; /* Set the desired height of your div */
+    background-image: url('C:\\Users\\Mark\\Downloads\\starliost unzipped\\starliost.png'); /* Set the path or URL of your image */
     background-size: cover; /* Optional: Cover the entire div */
     border: 1px solid #ccc;
 }
-.main-mens{
-    max-width: 100%; 
-    height: 1200px;
-    background-color: white;
-    display: flex; /* Use flexbox to create a horizontal layout */
-    justify-content: flex-start; /* Align items to the left */
-}
 
-.main-mens .product {
-    margin-right: 20px; /* Add margin for spacing between products */
-}
-
-.main-mens .product1 img {
-    width: 400px; /* Set the desired width of the images */
-    height: auto; /* Maintain aspect ratio */
-}
-.main-mens .product1 p {
-    text-align: center; /* Align the text to the center */
-    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
-    font-weight: bold;
-}
-
-.main-mens .product1:hover {
-    transform: scale(1.05); /* Increase the scale on hover */
-}
-
-.main-mens .product2 img {
-    width: 400px; /* Set the desired width of the images */
-    height: auto; /* Maintain aspect ratio */
-}
-.main-mens .product2 p {
-    text-align: center; /* Align the text to the center */
-    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
-    font-weight: bold;
-}
-.main-mens .product2:hover {
-    transform: scale(1.05); /* Increase the scale on hover */
-}
-
-.main-womens{
-    max-width: 100%; 
-    height: 1200px;
-    background-color: white;
-    display: flex; /* Use flexbox to create a horizontal layout */
-    justify-content: flex-start; /* Align items to the left */
-}
-
-.main-womens .product {
-    margin-right: 20px; /* Add margin for spacing between products */
-}
-
-.main-womens .product1 img {
-    width: 400px; /* Set the desired width of the images */
-    height: auto; /* Maintain aspect ratio */
-}
-.main-womens .product1 p {
-    text-align: center; /* Align the text to the center */
-    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
-    font-weight: bold;
-}
-
-.main-womens .product1:hover {
-    transform: scale(1.05); /* Increase the scale on hover */
-}
-
-.main-womens .product2 img {
-    width: 400px; /* Set the desired width of the images */
-    height: auto; /* Maintain aspect ratio */
-}
-.main-womens .product2 p {
-    text-align: center; /* Align the text to the center */
-    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
-    font-weight: bold;
-}
-.main-womens .product2:hover {
-    transform: scale(1.05); /* Increase the scale on hover */
-}
-
-.main-shopall{
-    max-width: 100%; 
-    height: 1200px;
-    background-color: white;
-    display: flex; /* Use flexbox to create a horizontal layout */
-    justify-content: flex-start; /* Align items to the left */
-    flex-wrap: wrap;
-}
-
-.main-shopall .product {
-    margin-right: 20px; /* Add margin for spacing between products */
-    margin-bottom: 20px;
-}
-
-.main-shopall .product1 img {
-    width: 400px; /* Set the desired width of the images */
-    height: auto; /* Maintain aspect ratio */
-}
-.main-shopall .product1 p {
-    text-align: center; /* Align the text to the center */
-    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
-    font-weight: bold;
-}
-
-.main-shopall .product1:hover {
-    transform: scale(1.05); /* Increase the scale on hover */
-}
-
-.main-shopall .product2 img {
-    width: 400px; /* Set the desired width of the images */
-    height: auto; /* Maintain aspect ratio */
-}
-.main-shopall .product2 p {
-    text-align: center; /* Align the text to the center */
-    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
-    font-weight: bold;
-}
-.main-shopall .product2:hover {
-    transform: scale(1.05); /* Increase the scale on hover */
-}
-
-.main-shopall .product3 img {
-    width: 400px; /* Set the desired width of the images */
-    height: auto; /* Maintain aspect ratio */
-}
-
-.main-shopall .product3 p {
-    text-align: center; /* Align the text to the center */
-    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
-    font-weight: bold;
-}
-
-.main-shopall .product3:hover {
-    transform: scale(1.05); /* Increase the scale on hover */
-}
-
-.main-shopall .product4 img {
-    width: 400px; /* Set the desired width of the images */
-    height: auto; /* Maintain aspect ratio */
-}
-.main-shopall .product4 p {
-    text-align: center; /* Align the text to the center */
-    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
-    font-weight: bold;
-}
-.main-shopall .product4:hover {
-    transform: scale(1.05); /* Increase the scale on hover */
-}
-
-.main-newdrop{
+.main-newdrop 
+{
     max-width: 100%; /* Set the desired width of your div */
-    height: 1200px; /* Set the desired height of your div */
-    background-image: url('geek.png'); /* Set the path or URL of your image */
-    image-rendering:optimizeQuality;
-    background-size: contain; /* Adjust this value */
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: black;
-    border: 1px solid #ccc
+    height: 120vh; /* Set the desired height of your div */
+    background-image: url('C:\\Users\\Mark\\Downloads\\geek2\\geek.png'); /* Set the path or URL of your image */
+    background-size: cover; /* Optional: Cover the entire div */
+    border: 1px solid #ccc;
+}
+
+
+.main-mens,
+.main-womens,
+.main-shopall
+{
+    max-width: 100%;
+    height: 120vh;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-mens .product,
+.main-womens .product,
+.main-shopall .product
+{
+    margin-right: 5%; /* Adjust margin for spacing between products */
+    margin-bottom: 5%; /* Adjust margin bottom */
+}
+
+.main-mens .product1 img,
+.main-womens .product1 img,
+.main-shopall .product1 img
+{
+    width: 100%; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.main-mens .product1 p,
+.main-womens .product1 p,
+.main-shopall .product1 p
+{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    margin: 0; 
+}
+
+.main-mens .product1:hover,
+.main-womens .product1:hover,
+.main-shopall .product1:hover
+{
+    transform: scale(1.05);
+}
+
+.main-mens .product2 img,
+.main-womens .product2 img,
+.main-shopall .product2 img
+{
+    width: 100%; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.main-mens .product2 p,
+.main-womens .product2 p,
+.main-shopall .product2 p
+{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+    margin: 0; 
+}
+
+.main-mens .product2:hover,
+.main-womens .product2:hover,
+.main-shopall .product2:hover
+{
+    transform: scale(1.05);
+}
+
+.main-shopall .product3 img
+{
+    width: 100%; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.main-shopall .product3
+{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+}
+
+.main-shopall .product3:hover
+{
+    transform: scale(1.05);
+}
+
+.main-shopall .product4 img
+{
+    width: 100%; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.main-shopall .product4 p
+{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-weight: bold;
+}
+
+.main-shopall .product4:hover
+{
+    transform: scale(1.05);
 }
 
 .prebase {
     text-align: center;
     background-color: black;
     width: 100%;
-    height: 50px;
+    height: 7vh; /* Adjust height */
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 2%; /* Adjust margin top */
 }
 
-.prebase h3 { 
+.prebase h3 {
     text-decoration: none;
     color: gray;
     font-weight: bold;
-    font-size: 16px;
-    font-family: 'Mukta', sans-serif; /* Change font to Mukta */
+    font-size: 1.2vw; /* Adjust font size */
+    font-family: 'Mukta', sans-serif;
 }
 
-.base{
+.base {
     text-align: center;
-    background-color:white;
+    background-color: white;
     width: 100%;
-    height: 200px;
+    height: 32vh; /* Adjust height */
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.base h4 img{
-    width: 300px; /* Adjust the width to a fixed pixel value */
+
+.base h4 img {
+    width: 60%; /* Adjust image width */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Add some space between the image and the list */
-    margin-left: 40px;
+    margin-right: 5%; /* Adjust margin */
+    margin-left: 10%; /* Adjust margin */
 }
 
 .subscribe-section {
     text-align: center;
-    padding: 20px;
+    padding: 2%;
     background-color: white;
-    margin-left: 230px;
-    margin-bottom: 20px;
+    margin-left: 20%; /* Adjust margin */
+    margin-bottom: 2%; /* Adjust margin */
 }
 
 .subscribe-section h5 {
-    font-family: 'Mukta', sans-serif; /* Change 'Mukta' to the desired font-family */
-    margin-bottom: 10px;
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 1%; /* Adjust margin */
 }
 
 .subscribe-section form {
@@ -383,43 +344,43 @@
 }
 
 .subscribe-section input[type="email"] {
-    width: 250px;
-    padding: 10px;
-    font-family: 'Mukta', sans-serif; /* Change 'Mukta' to the desired font-family */
+    width: 20vw; /* Adjust width */
+    padding: 2%;
+    font-family: 'Mukta', sans-serif;
 }
 
 .subscribe-section button {
     background-color: #333;
     color: white;
-    padding: 10px 20px;
+    padding: 2% 4%;
     cursor: pointer;
-    font-family: 'Mukta', sans-serif; /* Change 'Mukta' to the desired font-family */
-}
-
-.lastline{
-    width: 100%;
-    height:7px;
-    background-color: red;
-}
-footer p{
-    padding: 10px;
     font-family: 'Mukta', sans-serif;
 }
 
+.lastline {
+    width: 100%;
+    height: 0.5vh; /* Adjust height */
+    background-color: red;
+}
+
+footer p {
+    padding: 1%;
+    font-family: 'Mukta', sans-serif;
+}
 
 .main-whiteT {
-    max-width: 100%; /* Limit the maximum width of the container */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 20px; /* Add some padding to the container */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2%;
+    box-sizing: border-box;
 }
 
 .product-container {
     display: flex;
-    flex-direction: column; /* Adjusted to column */
-    align-items: center; /* Adjusted to center alignment */
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 2%; /* Adjust margin */
 }
 
 .product-image {
@@ -432,54 +393,53 @@ footer p{
 }
 
 .product-details {
-    width: 100%; /* Adjusted to full width */
-    padding: 0 20px; /* Adjusted padding */
+    width: 100%;
+    padding: 0 2%;
     font-family: 'Mukta', sans-serif;
     text-align: center;
 }
 
 .product-details h2 {
-    font-size: 28px;
-    margin-bottom: 15px;
+    font-size: 2vw; /* Adjust font size */
+    margin-bottom: 1%; /* Adjust margin */
 }
 
 .product-options {
     align-items: center;
     display: flex;
     flex-direction: column;
-
 }
 
 .option {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 1%; /* Adjust margin */
     flex-direction: column;
 }
 
 .option-label {
     font-weight: bold;
-    margin-bottom: 5px;
-    font-size: 18px; /* Adjust label font size */
+    margin-bottom: 0.5%; /* Adjust margin */
+    font-size: 1.5vw; /* Adjust font size */
 }
 
 select {
-    width: 230px;
-    padding: 8px;
+    width: 230px; /* Adjust width */
+    padding: 1%;
     border-radius: 5px;
     border: 1px solid #ccc;
-    font-size: 18px;
-    margin-top: 5px;
+    font-size: 1.5vw; /* Adjust font size */
+    margin-top: 0.5%; /* Adjust margin */
 }
 
 .add-to-cart {
-    width: 230px;
-    padding: 12px;
+    width: 20%; /* Adjust width */
+    padding: 1.5%;
     border: none;
     border-radius: 5px;
-    background-color:black;
+    background-color: black;
     color: lightgray;
-    font-size: 18px;
-    margin-top: 10px;
+    font-size: 1.5vw; /* Adjust font size */
+    margin-top: 1%; /* Adjust margin */
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -489,32 +449,32 @@ select {
 }
 
 .product-description {
-    margin-top: 20px;
+    margin-top: 2%; /* Adjust margin */
     width: 100%;
 }
 
 .product-description p {
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 1.3vw; /* Adjust font size */
+    line-height: 1.5
 }
-
-
 
 .you-might-like {
-    margin-top: 40px; /* Adjust as needed */
-    clear: both; /* Clear floats */
+    margin-top: 2%; /* Adjust margin top */
+    clear: both;
 }
 
-.you-might-like h3{
+.you-might-like h3 {
     font-family: 'Mukta', sans-serif;
     text-align: center;
+    font-size: 2vw; /* Adjust font size */
 }
 
 .product1-thumbnail,
 .product2-thumbnail,
 .product3-thumbnail {
-    display: inline-block; /* Change to block or inline-block */
-    margin-right: 60px; /* Adjust spacing between thumbnails */
+    display: inline-block;
+    margin-right: 3%; /* Adjust spacing between thumbnails */
+    width: 30%; 
 }
 
 .product1-thumbnail:hover,
@@ -523,36 +483,37 @@ select {
     background-color: grey;
 }
 
+.product1-thumbnail img {
+    width: 100%; /* Adjust image width */
+    height: auto;
+    margin-right:10px;
+}
 
-.product1-thumbnail img{
-    width: 300px;
+.product2-thumbnail img {
+    width: 100%; /* Adjust image width */
     height: auto;
 }
 
-.product2-thumbnail img{
-    width: 300px;
+.product3-thumbnail img {
+    width: 100%; /* Adjust image width */
     height: auto;
 }
 
-.product3-thumbnail img{
-width: 300px;
-height: auto;
-}
 .main-cart {
     text-align: center;
     background-color: white;
     width: 100%;
-    height: 50px;
+    height: 5vh; /* Adjust height */
     display: flex;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
-
+    margin-top: 2%; /* Adjust margin top */
 }
 
-.main-cart p{
+.main-cart p {
     text-decoration: none;
     color: gray;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1.5vw; /* Adjust font size */
     font-family: 'Mukta', sans-serif;
 }
