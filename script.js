@@ -1,4 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
+    
+    new Swiper(".swiper", {
+        loop: true,
+        autoplay: {
+            delay: 3000, // Slide every 3 seconds
+            disableOnInteraction: false, // Keep autoplay running even after user interaction
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+    
     var subscribeForm = document.querySelector('.subscribe-section form');
 
     subscribeForm.addEventListener('submit', function (event) {
